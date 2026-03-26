@@ -1,1 +1,2 @@
-{"version": 2, "builds": [{"src": "src/index.js", "use": "@vercel/node"}], "routes": [{"src": "/(.*)", "dest": "src/index.js"}]}
+{\n  "build": {\n    "command": "next build",\n    "outputDirectory": "out",\n    "env": {\n      "HTTPS": "true"
+    }\n  },\n  "routes": [\n    {\n      "src": "/(.*)",\n      "headers": {\n        "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"\n      },\n      "dest": "/$1"\n    }\n  ]\n}
