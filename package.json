@@ -1,0 +1,1 @@
+{\n  \"name\": \"illuminate\",\n  \"version\": \"1.0.0\",\n  \"description\": \"A basic web app setup for Vercel\",\n  \"scripts\": {\n    \"dev\": \"vercel dev\",\n    \"build\": \"vercel build\"\n  },\n  \"dependencies\": {\n    \"react\": \"^17.0.0\",\n    \"react-dom\": \"^17.0.0\"\n  }\n}
