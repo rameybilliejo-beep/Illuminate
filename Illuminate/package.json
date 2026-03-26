@@ -1,0 +1,1 @@
+{\n  \"name\": \"your-web-app\",\n  \"version\": \"1.0.0\",\n  \"description\": \"A web app project\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"start\": \"node index.js\"\n  },\n  \"author\": \"rameybilliejo-beep\",\n  \"license\": \"MIT\"\n}
